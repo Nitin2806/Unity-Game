@@ -26,8 +26,7 @@ public class playercontroller : MonoBehaviour
     if (Input.GetKeyDown(KeyCode.Space))
     {
      rb.AddForce (0,200,100);
-     }
-     rb.AddForce(0,-10,0);
+    }
      }
    }
 
